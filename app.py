@@ -5,7 +5,7 @@ import urllib.request, urllib.parse
 def main():
     year = datetime.date.today().year
 
-    files = ["solutions/day_sample.py", "utils/puzzle_reader.py", "utils/solution_base.py", "utils/submission.py", "LICENSE", "README.md", "app.py"]
+    files = ["solutions/day_sample.py", "utils/puzzle_reader.py", "utils/solution_base.py", "utils/submission.py", "utils/files.py", "LICENSE", "README.md", "app.py"]
     remote_address = "https://raw.githubusercontent.com/nitekat1124/aoc-tool/files/template-files/"
 
     parser = argparse.ArgumentParser(description="Advent of Code Tool")
