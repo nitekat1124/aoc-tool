@@ -31,6 +31,8 @@ def main():
                 remote_file = remote_address + file
                 with urllib.request.urlopen(remote_file) as response:
                     remote_content = response.read().decode("utf-8")
+                    if file == "README.md":
+                        remote_content = remote_content.replace("20xx", str(args.year))
 
                 local_file = os.path.join(path, file)
                 local_file_dir = os.path.dirname(local_file)
