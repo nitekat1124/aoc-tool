@@ -1,6 +1,6 @@
 # Advent of Code 20xx
 
-My solutions for [Advent of Code 20xx](https://adventofcode.com/20xx/) using Python3
+My solutions to [Advent of Code 20xx](https://adventofcode.com/20xx/) using Python3
 
 ```
 usage: app.py [-h] [-d day_number] [-p part_number] [--raw] [--add] [--add-test-file test_number] [--skip-test] [--benchmark] [--submit]
